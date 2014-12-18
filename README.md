@@ -15,8 +15,6 @@ Geohash能做到！
 
 - 例如: 用iPhone/android手机定位得到理想国际大厦的经纬度: 39.98123848, 116.30683690 然后查找附近的人
 
-![](http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___6715EN00SIGG.gif)
-
 ```php
 
 require_once('geohash.class.php');
