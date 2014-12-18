@@ -3,14 +3,7 @@ geohash
 
 这年头和LBS相关的应用越来越火. 从foursquare的热闹程度就可见一般, 更不用说微信、陌陌了 (什么, 没听过 foursquare... 哥们, 你 out 了). 和 LBS有关的应用一般都包括一些共同的操作, 最常见的一个, 就是找附近的东东（餐馆, 商店, 妞....）. 所以, 这里就抛出了一个问题, 怎样才能在大量经纬度数据中检索出附近的点呢?
 
-geohash能做到  [@一个开发者](http://weibo.com/smcz)
-
-[![](http://service.t.sina.com.cn/widget/qmd/1656360925/02781ba4/4.png)](http://weibo.com/smcz)
-
-[![paypaldonate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VW7YCWNMQ7ZXY)
-
-![](http://image.sinastorage.com/donate.png)
-
+geohash能做到
 
 ### Requirements
 
@@ -63,7 +56,6 @@ Array
 ![](http://s15.sinaimg.cn/orignal/62ba0fddtab3b8381ce8e&690)
 
 
-
 - 用sql语句查询
 
 ```sql
@@ -98,6 +90,3 @@ EXPLAIN SELECT * FROM xy WHERE geohash LIKE 'wx4eqw%';
 其他资料：
 - geohash演示:  http://openlocation.org/geohash/geohash-js/
 - wiki: http://en.wikipedia.org/wiki/Geohash
-- 原理: https://github.com/CloudSide/geohash/wiki
-
-
