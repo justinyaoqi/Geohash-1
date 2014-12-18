@@ -1,18 +1,21 @@
-geohash
+Geohash
 ============
 
 这年头和LBS相关的应用越来越火. 从foursquare的热闹程度就可见一般, 更不用说微信、陌陌了 (什么, 没听过 foursquare... 哥们, 你 out 了). 和 LBS有关的应用一般都包括一些共同的操作, 最常见的一个, 就是找附近的东东（餐馆, 商店, 妞....）. 所以, 这里就抛出了一个问题, 怎样才能在大量经纬度数据中检索出附近的点呢?
 
-geohash能做到
+Geohash能做到！
+
 
 ### Requirements
 
 * PHP >= 4
 
+
 ### Usage
 
+- 例如: 用iPhone/android手机定位得到理想国际大厦的经纬度: 39.98123848, 116.30683690 然后查找附近的人
 
-- 例如: 用iPhone/android手机定位得到理想国际大厦的经纬度: 39.98123848, 116.30683690 然后查找附近的妞 ![](http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___6715EN00SIGG.gif)
+![](http://www.sinaimg.cn/uc/myshow/blog/misc/gif/E___6715EN00SIGG.gif)
 
 ```php
 
@@ -55,7 +58,6 @@ Array
  
 ![](http://s15.sinaimg.cn/orignal/62ba0fddtab3b8381ce8e&690)
 
-
 - 用sql语句查询
 
 ```sql
@@ -88,5 +90,5 @@ EXPLAIN SELECT * FROM xy WHERE geohash LIKE 'wx4eqw%';
 
 
 其他资料：
-- geohash演示:  http://openlocation.org/geohash/geohash-js/
+- 演示: http://openlocation.org/geohash/geohash-js/
 - wiki: http://en.wikipedia.org/wiki/Geohash
